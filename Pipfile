@@ -11,7 +11,7 @@ JSMin = "*"
 [packages]
 Flask = "*"
 Flask-Assets = "*"
-Python-Dotenv = "*"
+python-Dotenv = "*"
 Faker = "*"
 Requests = "*"
 
