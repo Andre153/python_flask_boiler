@@ -14,6 +14,9 @@ Flask-Assets = "*"
 python-Dotenv = "*"
 Faker = "*"
 Requests = "*"
+Flask-SQLAlchemy = "*"
+psycopg2-binary = "*"
+flask-migrate = "*"
 
 [requires]
 python_version = "3.8"
