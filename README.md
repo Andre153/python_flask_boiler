@@ -15,7 +15,13 @@ COMPRESSOR_DEBUG=True
 POSTGRES_URI=postgres+psycopg2://postgres:@localhost:5432/test 
 
 ### Running the application
-To run the application just run the start.sh file 
+```shell
+$ git clone git@github.com:Andre153/python_flask_boiler.git
+$ cd python_flask_boiler
+$ pipenv shell
+$ pipenv update
+$ sh start.sh
+```
 
 
 
