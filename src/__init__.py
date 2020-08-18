@@ -2,6 +2,7 @@ from flask import Flask
 from flask_assets import Environment
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from flask_migrate import Migrate
 
 db = SQLAlchemy()
 marsh = Marshmallow()
@@ -21,4 +22,5 @@ def create_app():
         from .user.model import User
 
         db.create_all()
+        migrate = Migrate(app, db)
         return app
